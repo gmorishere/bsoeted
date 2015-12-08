@@ -219,7 +219,7 @@ function create_config( )
     "download_media",
     "invite"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {52038630},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -229,37 +229,31 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
+RyanGmor
+SepehrShield
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-]],
-    help_text = [[
+ help_text = [[
 Commands list :
 
 !kick [username|id]
+کیک
 You can also do it by reply
+میتونی با ریپلای هم این کار رو بکنی
 
 !ban [ username|id]
+بن
 You can also do it by reply
-
+میتونی با ریپلای هم این کارو بکنی
 !unban [id]
+آن بن
 You can also do it by reply
-
+میتونی با ریپلای هم این کارو بکنی
 !who
 Members list
-
+لیست اعضا
 !modlist
 Moderators list
-
+لیست مدیران گروه
 !promote [username]
 Promote someone
 
@@ -303,10 +297,10 @@ Returns group settings
 
 !newlink
 create/revoke your group link
-
+لینک جدید
 !link
 returns group link
-
+لینک
 !owner
 returns group owner id
 
@@ -342,11 +336,11 @@ will return group ban list
 
 
 *Only owner and mods can add bots in group
-
+فقط مدیران می توانند بات ادد کنند
 
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+فقط مدیران می توانند دستورات تنظیمی را انجام دهند
 
-*Only owner can use res,setowner,promote,demote and log commands
 
 ]]
 
